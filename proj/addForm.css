@@ -10,7 +10,7 @@ input[type=submit]{
     
 }
 
-input[type=text, type=url] {
+input[type=text], input [type=url] {
     margin-top: 10px;
     padding:5px; 
     border:2px solid #ccc; 
@@ -50,4 +50,5 @@ input[type=text, type=url] {
 .form-row > textarea {
     flex:2;
 }
+
 
