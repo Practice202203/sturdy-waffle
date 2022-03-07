@@ -46,7 +46,7 @@ input[type=text], input [type=url] {
   border: solid 2px ;
   
 }
-
+ 
 .form-row > textarea {
     flex:2;
 }
