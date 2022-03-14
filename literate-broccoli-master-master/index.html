@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Комплектующие</title>
+    <link rel="stylesheet" type="text/css" href="css/collection_cards.css">
+    <link rel="stylesheet" type="text/css" href="css/dropDownMenu.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/dropDownMenu.js" defer></script>
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" title="Store">
+                <img  src="img/logo.png">
+            </a>
+            <div class="header-right">
+                <form class="search-form">
+                    <input type="text" name="search" value="" placeholder="Search" class="search-input">
+                    <button><i class="fa fa-search search-i"></i></button>
+                </form>
+
+            </div>
+            <div class="header-right-form">
+				<a class="signIn" href="signIn.html">Войти</a>
+			</div>
+            
+        </div>
+    </header>
+
+
+    <!-- NEW ------->
+    <div class="menu">
+        <div class="container menu__container">
+            <div class="catalog">
+                <div class="catalog__wrapper">
+                    <div class="catalog__header"><span>Каталог</span><i class="fa fa-bars catalog__header-icon"></i>
+                    </div>
+                    <ul class="catalog__list">
+                        <li class="catalog__item">
+                            <a href="#" class="catalog__link">
+                                <img src="img/radio_comps.png" alt="Desktops" class="catalog__link-img"> Радиоэлементы
+                            </a>
+                            <div class="catalog__subcatalog">
+                                <ul class="collections_subcatalog">
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">ТНТ</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Резисторы</a>                                                
+                                                <ul class="subcatalog_resist">
+                                                
+                                                   <li><a href="#" class="catalog__subcatalog-link_">Постоянные</a></li>
+                                                   <li><a href="#" class="catalog__subcatalog-link">Переменные</a></li>
+                                               
+                                                </ul>
+
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Конденсаторы</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Полупроводники</a>
+                                                <ul>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Диоды</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Светодиоды</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Транзисторы</a>
+                                                    </li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Стабилизаторы</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы ></a>
+                                                        <ul>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Логические
+                                                                    элементы</a></li>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
+                                                            </li>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Драйверы и
+                                                                    усилители</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Прочее</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">SMD</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Резисторы</a>
+                                                <ul>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Постоянные</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Переменные</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Конденсаторы</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Полупроводники</a>
+                                                <ul>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Диоды</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Светодиоды</a></li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Транзисторы</a>
+                                                    </li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Стабилизаторы</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы ></a>
+                                                        <ul>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Логические
+                                                                    элементы</a></li>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
+                                                            </li>
+                                                            <li><a href="#" class="catalog__subcatalog-link">Драйверы и
+                                                                    усилители</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" class="catalog__subcatalog-link">Прочее</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Двигатели</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Постоянного вращения</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Серво</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="catalog__subcatalog-link">Шаговые</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Прочее</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li class="catalog__item">
+                            <a href="#" class="catalog__link"><img src="img/power.png" class="catalog__link-img">Питание</a>
+                            <div class="catalog__subcatalog">
+                                <ul class="collections_subcatalog">
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Автономное</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">От сети</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="catalog__item">
+                            <a href="#" class="catalog__link"><img src="img/modules.png" alt="Components" class="catalog__link-img">Модули</a>
+                            <div class="catalog__subcatalog">
+                                <ul class="collections_subcatalog">
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Управляющие модули</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Сенсоры</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Индикаторы</a>
+                                        <ul>
+                                            <li>
+                                                <a href="" class="catalog__subcatalog-link">Светодиоды/светодиодные
+                                                    сборки</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="catalog__subcatalog-link">Динамики/пьезоэлементы</a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="catalog__subcatalog-link">Дисплеи</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Приём/передача</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Платы расширения</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Макетные платы</a>
+                                    </li>
+                                    <li class="collections_subcatalog_item">
+                                        <a href="#" class="catalog__subcatalog-link">Прочее</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="catalog__item">
+                            <a href="#" class="catalog__link"><img src="img/wires.png" alt="Tablets" class="catalog__link-img">Провода</a>
+                        </li>
+                        <li class="catalog__item">
+                            <a href="#" class="catalog__link"><img src="img/other.png" alt="Software" class="catalog__link-img">Прочее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!---- 
+            <nav class="menu__nav">
+                <a href="#" class="menu__nav-link">My Account</a>
+                <a href="#" class="menu__nav-link">Wish List</a>
+                <a href="#" class="menu__nav-link">Shopping Cart</a>
+                <a href="#" class="menu__nav-link">Checkout</a>
+            </nav>
+            --->
+        </div>
+    </div>
+
+    <!-- END -->
+
+    <main>
+        <div class="wrapper">
+            <div class="flex">
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Модуль RGB светодиодов CJMCU-2812-8 с ШИМ чипом WS2812</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="img">
+                        <img src="img/ATmega32U4.png" alt="">
+                    </div>
+                    <div class="description">Керамический дисковый конденсатор 1000шт 50В 33000 пФ, 333 33000 пФ (33 нФ)</div>
+                    <div class="price"></div>
+                    <div class="button">
+                        <a href="product.html"><button type="button">Подробнее</button></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+</body>
+</html>
