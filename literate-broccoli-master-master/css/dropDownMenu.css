@@ -1,8 +1,8 @@
 /* NEW */
 @font-face {
-    font-family: Roboto;
-    font-display: swap;
-    src: url(https://imdiz.ru/files/store/fonts/Roboto.ttf);
+    font-family: "Header";
+    src: local("Header"),
+		url("../fonts/Roboto-Condensed.ttf") format("truetype");
 }
 
 * {
@@ -18,9 +18,16 @@ body {
     margin: 0;
     /* NEW */
     font-size: 16px;
-    font-family: Roboto;
+    font-family: "Header";
     /* END */
 }
+
+a {
+    text-decoration: none;
+	color: #111;
+}
+
+
 
 .header {
     background: #cb2d41;
@@ -52,10 +59,11 @@ body {
 }
 
 .header-right-form a {
+	font-family: "Header";
     align-items: center;
     color: white;
-    font-family: sans-serif;
 	margin-left: 300px;
+	
 }
 
 
@@ -342,8 +350,8 @@ li {
 }
 
 .log-out {
+	font-family: "Header";
     color: white;
-    font-family: sans-serif;
 	display: inherit;
 	margin-left: 150px;
 }
@@ -424,10 +432,7 @@ img {
     border-style: none;
 }
 
-a {
-    color: #111;
-    text-decoration: none;
-}
+
 
 a:hover {
     color: #cb2d41;
