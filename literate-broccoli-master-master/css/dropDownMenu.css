@@ -99,12 +99,7 @@ input {
     color: #fff
 }
 
-button {
-    outline: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
+
 
 .search-i {
     color: #fff;
@@ -180,10 +175,6 @@ button {
     background-color: #fff;
 }
 
-.catalog:focus~.catalog__list {
-    display: none;
-}
-
 .catalog__header {
     height: 60px;
     font-weight: bold;
@@ -202,6 +193,7 @@ button {
 }
 
 .catalog__list {
+	display: none;
     position: relative;
     z-index: 6;
 }
