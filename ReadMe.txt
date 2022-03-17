@@ -1,2 +1,3 @@
 TEST
 Test merge conflicts
+..
