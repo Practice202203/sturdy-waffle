@@ -1,34 +1,58 @@
-
+/*
+<!-- контейнер ---->
+*/
 .wrapper {
   background-color: whitesmoke;
   list-style-type: none;
   padding: 0;
   border-radius: 3px;
 }
+
+/*
+<!-- строка формы
+*/
 .form-row {
+
   display: flex;
   justify-content: flex-end;
   padding: .5em;
   
 }
+/*
+<!-- надписи в строке формы ---->
+*/
 .form-row > label {
   padding: .5em 1em .5em 0;
   flex: 1;
 }
+
+/*
+<!-- распределение элементов формы по всей ширине экрана ---->
+*/
 .form-row > input {
   flex: 2;
 }
+
+/*
+<!-- внутренний отступ элементов формы ---->
+*/
 .form-row > input,
 .form-row > button {
   padding: .5em;
 }
+
+/*
+<!-- форматировние кнопок ---->
+*/
 .form-row > button {
   background: gray;
   color: white;
   border: solid 2px ;
   
 }
- 
+ /*
+<!-- многострочное текстовое поле в строке формы ---->
+*/
 .form-row > textarea {
     flex:2;
 }

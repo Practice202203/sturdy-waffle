@@ -2,48 +2,56 @@
 <html>
 
     <head>
+	<!-- тайтл ---->
         <meta charset="utf-8">
-        <title>Untitled</title>
+        <title>Добавить комплектующее</title>
         <link rel="stylesheet" href="css\addForm.css">
     </head>
     <body>
-
+		<!-- заголовок ---->
 		<h2>Добавить элемент</h2>
-        <form action="post" name="add item">
+        <form action="post" name="addItem">
+		<!-- контейнер ---->
             <ul class="wrapper">
+			<!-- строка формы ---->
                 <li class="form-row">
                     <label for="name">Наименование</label>
                     <input type="text" name="itemName" id="name">
                 </li>
                 <hr size="2">
+				<!-- строка формы ---->
                 <li class="form-row">
                     <label for="description">Технические  характеристики</label>
                     <textarea name="description" id="description" rows="10"></textarea>
                 </li>
                 <hr size="2">
+				
+				<!-- строка формы ---->
                 <li class="form-row">
                     <label for="amount">Количество</label>
                     <input type="text" name="amount" id="amount">
                 </li>
+				
                 <hr size="2">
+				<!-- строка формы ---->
                 <li class="form-row">
                     <label for="img">Select image:</label>
                     <input type="file" id="img" name="img" accept="image/*">
                 </li>  
                 <hr size="2">
-                
+                <!-- строка формы ---->
                 <li class="form-row">
                     <label for="link">Ссылка на элемент</label>
                     <input type="url" name="link" id="link">
                 </li>
                 <hr size="2">
-                
+                <!-- строка формы ---->
                 <li class="form-row">
                     <label>Тип элемента(подробно)</label>
                     <input type="text" name="link">
                 </li>
                 <hr size="2">
-                
+                <!-- строка формы ---->
                 <li  class="form-row">
                     <button type="submit">Добавить</button>
                 </li>
