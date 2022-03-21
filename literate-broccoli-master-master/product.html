@@ -11,11 +11,14 @@
 </head>
 
 <body>
+<!-- шапка ---->
     <header class="header">
+	<!-- контейнер в шапке ---->
         <div class="container">
             <a href="index.html" class="logo" title="Store">
-                <img src="https://imdiz.ru/files/store/img/logo.png" alt="Logo">
+                <img  src="img/logo.png">
             </a>
+			<!-- правая часть с поисковой строкой ---->
             <div class="header-right">
                 <form class="search-form">
                     <input type="text" name="search" value="" placeholder="Search" class="search-input">
@@ -23,6 +26,11 @@
                 </form>
 
             </div>
+			<!-- ссылка на вход с формой ---->
+            <div class="header-right-form">
+				<a class="signIn" href="signIn.html">Войти</a>
+			</div>
+            
         </div>
     </header>
 
@@ -202,73 +210,54 @@
                     </ul>
                 </div>
             </div>
-            <!---- 
-            <nav class="menu__nav">
-                <a href="#" class="menu__nav-link">My Account</a>
-                <a href="#" class="menu__nav-link">Wish List</a>
-                <a href="#" class="menu__nav-link">Shopping Cart</a>
-                <a href="#" class="menu__nav-link">Checkout</a>
-            </nav>
-            --->
+            
         </div>
     </div>
-   <!----- <div class="slider">
-        <div class="container">
-            <div class="slider__wrapper">
-                <div class="slider__carousel">
-                    <div class="slider__carousel_item">
-                        <div class="slider__carousel_desc">
-                            <p class="slider__carousel_desc-title">Belkinon</p>
-                            <p class="slider__carousel_desc-text">New powerfull</p>
-                            <p class="slider__carousel_desc-text">Headphones</p>
-                            <a href="#" class="slider__carousel_button">More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> ---->
-    <!-- END -->
+
 
     <main class="container-product">
         <!-- Left Column / Headphones Image -->
 
-        <div class="left-column"><img src="img/background_robot.jpg" alt="" data-image="black" /> <img src="img/background_robot.jpg" alt="" data-image="blue" /> <img class="active" src="img/background_robot.jpg" alt="" data-image="red" /></div>
+        <div class="left-column">
+            <img class="active" src="img/ATmega32U4.png" alt="" />
+        </div>
         <pre>
 
   <!-- Right Column --></pre>
         <div class="right-column">
             <!-- Product Description -->
-            <div class="product-description">Headphones
-                <h1>Beats EP</h1>
-                The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation.
-                Sturdy headband and on-ear cushions suitable for live performance
+            <div class="product-name">
+                <h1>Плата Iskra Neo</h1>                
             </div>
             <!-- Product Configuration -->
-            <div class="product-configuration">
+            <div class="product-description">
                 <!-- Product Color -->
-                <div class="product-color">Color
-                    <div class="color-choose">
-                        <div><input id="red" checked="checked" name="color" type="radio" value="red" data-image="red" />
-                            <label for="red"></label>
-                        </div>
-                        <div><input id="blue" name="color" type="radio" value="blue" data-image="blue" /> <label for="blue"></label></div>
-                        <div><input id="black" name="color" type="radio" value="black" data-image="black" /> <label for="black"></label></div>
-                    </div>
-                </div>
+                <h2>Технические характеристики</h2> 
+                <p>Платформа для разработки с микроконтроллером ATmega32U4</p>
                 <!-- Cable Configuration -->
-                <div class="cable-config">Cable configuration
-                    <div class="cable-choose"><button>Straight</button> <button>Coiled</button>
-                        <button>Long-coiled</button>
+                <div class="product-links">
+                    <h2>Ссылки</h2> 
+                    <ul>
+                        <li><a href="http://amperka.ru/product/iskra-neo">Ссылка №1</a></li>
+                        <li><a href="https://www.chipdip.ru/product/iskra-neo">Ссылка №2</a></li>
+                        <li><a href="http://www.electronshik.ru/item/iskra-neo-1916803">Ссылка №3</a></li>
+                    </ul>                      
+                    <h2>Количество</h2>
+                    <div class="product-count">
+                        <span>8</span>
                     </div>
-                    <a href="#">How to configurate your headphones</a>
+                    
                 </div>
             </div>
-            <!-- Product Pricing 
-            <div class="product-price">148$ <a class="cart-btn" href="#">Add to cart</a></div>
-            -->
+            
+            <div class="product-button"><div class="edit"><a href="">Обновить</a></div>
+				<div class="edit"><a href="">Удалить</a></div> </div> 
+            
         </div>
+        
+        
 
+        
 
     </main>
 

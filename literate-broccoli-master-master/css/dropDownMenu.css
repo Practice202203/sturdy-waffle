@@ -184,6 +184,7 @@ input {
 }
 
 .catalog__header {
+	font-size: 26px;
     height: 60px;
     font-weight: bold;
     padding-left: 20px;
@@ -196,19 +197,18 @@ input {
     display: flex;
 }
 
-.catalog__header-icon {
-    font-size: 21px;
-}
 
 .catalog__list {
-	display: none;
-    position: relative;
-    z-index: 6;
+	
+	width: 100%;
+	visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    transition: opacity .3s;
 }
 
-.catalog__list__close {
-    display: none;
-}
 
 ul {
     padding: 0;
@@ -222,8 +222,8 @@ li {
 }
 
 .catalog__link {
+	font-size: 26px;
     height: 60px;
-    font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid #e0e0e0;
@@ -267,6 +267,11 @@ li {
     color: green;
 }
 
+.catalog__wrapper:hover > .catalog__list{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 .catalog__item:hover .catalog__subcatalog {
     opacity: 1;
@@ -277,7 +282,7 @@ li {
 .catalog__subcatalog-link {
     display: block;
     position: relative;
-    font-size: 14px;
+    font-size: 26px;
     color: #111;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -299,6 +304,10 @@ li {
     min-width: 300px;
     margin-left: 50px;
 }   
+
+.collections_subcatalog_item a{
+	font-size: 28px;
+}
 
 .collections_subcatalog_item ul li:hover > ul {
     visibility: visible;
@@ -326,6 +335,10 @@ p {
 
 img {
     border-style: none;
+}
+
+span{
+	margin-left: 38px;
 }
 
 
