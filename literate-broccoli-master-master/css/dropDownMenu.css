@@ -17,7 +17,7 @@ html,
 body {
     margin: 0;
     /* NEW */
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Header";
     /* END */
 }
@@ -30,8 +30,7 @@ a {
 
 
 .header {
-    background: #cb2d41;
-	background-color: #36096d;
+
 	background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
     padding: 35px 0;
 }
@@ -41,7 +40,7 @@ a {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     padding-left: 15px;
@@ -62,7 +61,7 @@ a {
 	font-family: "Header";
     align-items: center;
     color: white;
-	margin-left: 300px;
+	margin-left: 200px;
 	
 }
 
@@ -307,49 +306,6 @@ li {
 }
 
 
-.menu__nav {
-    padding-left: 290px;
-    padding-top: 20px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.menu__nav-link {
-    font-weight: bold;
-    font-size: 14px;
-    padding-right: 20px;
-    transition: all .3s;
-}
-
-.menu__phone {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: #cb2d41;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: auto;
-    border-left: 1px solid #e0e0e0;
-    padding-left: 40px;
-    height: 60px;
-}
-
-.menu__phone-icon {
-    font-size: 18px;
-}
-
-.menu__phone-span {
-    padding-left: 10px;
-    padding-right: 5px;
-    color: #111;
-    transition: all .3s;
-}
-
-.menu__phone:hover .menu__phone-span {
-    color: #cb2d41;
-}
-
 .log-out {
 	font-family: "Header";
     color: white;
@@ -361,68 +317,7 @@ li {
     margin-left: 5px;
 }
 
-.slider {
-    background: url("/img/background_robot.jpg") no-repeat;
-    background-size: cover;
 
-}
-
-.slider__wrapper {
-    width: 600px;
-    margin-left: 400px;
-    height: 541px;
-}
-
-.slider__carousel_desc {
-    position: absolute;
-    top: 110px;
-    color: #fff;
-}
-
-.slider__carousel_desc-title {
-    font-size: 90px;
-}
-
-.slider__carousel_desc-text {
-    font-size: 35px;
-    padding-top: 5px;
-}
-
-.slider__carousel_desc-text {
-    font-size: 35px;
-    padding-top: 5px;
-}
-
-.slider__carousel_button {
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #cb2d41;
-    width: 160px;
-    height: 50px;
-    margin-top: 20px;
-    transition: all .3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slider__carousel_button:hover {
-    background-color: #111;
-    color: #fff;
-}
-
-.slider__img {
-    display: block;
-    width: 100%;
-}
-
-.slider__carousel {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
 
 p {
     margin: 0;
