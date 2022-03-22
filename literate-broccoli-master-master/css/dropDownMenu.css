@@ -155,7 +155,7 @@ input {
 	font-size: 26px;
     height: 60px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 18px;
     padding-right: 20px;
     border: 1px solid #e0e0e0;
     border-bottom: none;
@@ -252,14 +252,12 @@ li {
     position: relative;
     font-size: 26px;
     color: #111;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .collections_subcatalog_item ul ul{ 
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1s, opacity 0.5s ease-out;
+    display: none;
     position: absolute;
     box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
     border-radius: 5px;    
@@ -278,12 +276,11 @@ li {
 }
 
 .collections_subcatalog_item ul li:hover > ul {
-    visibility: visible;
-    opacity: 1;
+    display: block;
 }
 
 span{
-	margin-left: 12px;
+	margin-left: 8px;
 }
 
 .log-out {
