@@ -3,6 +3,9 @@
 }
 
 
+/*
+all main format
+*/
 .wrapper {
 	
   text-align: center;
@@ -12,13 +15,20 @@ background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%)
 
 }
 
+
+/*
+card boxing
+*/
 .flex {
     display: flex;
     flex-wrap: wrap;
     padding: 5%;
 }
 
-.cart {
+/*
+cards format
+*/
+.card {
     width: 25%;
     box-sizing: border-box;
     background-color: transparent;
@@ -26,19 +36,28 @@ background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%)
     transition: 0.1s ease-in;
 }
 
-.cart:hover {
+/*
+cards format after mouseover to card
+*/
+.card:hover {
     background: #fff;
     border-radius: 4px;
     border: 1px solid #ccc;
     box-shadow: 0 0 20px #fff;
 }
 
-.cart:hover > .edit {
+/*
+show update/delete links after mouseover to card
+*/
+.card:hover > .edit {
     display: block;
 	padding: 10px;
 	margin-bottom: 5px;
 }
 
+/*
+image
+*/
 .img img{  
     background: url("/img/ATmega32U4.png") no-repeat;
     display: inline-block;
@@ -46,7 +65,9 @@ background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%)
     object-fit: cover;
 }
 
-
+/*
+card description
+*/
 .description {
     font-size: 18px;
     text-align: left;
@@ -54,11 +75,17 @@ background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%)
     margin: 20px auto;
 }
 
+/*
+not show update/delete links until mouseover to cart
+*/
 .edit{
 	
 	display: none;
 }
 
+/*
+set blue color to update/delete links after mouseover links
+*/
 .edit:hover > a {
 	color: blue;
 }

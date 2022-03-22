@@ -6,8 +6,7 @@
     <title>Комплектующие</title>
     <link rel="stylesheet" type="text/css" href="css/product_card.css">
     <link rel="stylesheet" type="text/css" href="css/dropDownMenu.css">
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="js/dropDownMenu.js" defer></script>
+    <script type="text/javascript" src="js/catalog_icon.js" defer></script>
 </head>
 
 <body>
@@ -15,7 +14,7 @@
     <header class="header">
 	<!-- контейнер в шапке ---->
         <div class="container">
-            <a href="index.html" class="logo" title="Store">
+            <a href="index.html" class="logo">
                 <img  src="img/logo.png">
             </a>
 			<!-- правая часть с поисковой строкой ---->
@@ -37,35 +36,58 @@
 
     <!-- NEW ------->
     <div class="menu">
+	<!-- контейнер меню ---->
         <div class="container menu__container">
             <div class="catalog">
                 <div class="catalog__wrapper">
-                    <div class="catalog__header"><span>Каталог</span><i class="fa fa-bars catalog__header-icon"></i>
+				<!-- заголовок каталога ---->
+                    <div class="catalog__header">
+						<div class="catalog_icon">
+							<div class="catalog_icon_i"></div>
+							<div class="catalog_icon_i"></div>
+							<div class="catalog_icon_i"></div>
+						</div>
+						<span>Каталог</span>
                     </div>
+					<!-- список каталога ---->
                     <ul class="catalog__list">
+					<!-- элементы каталога ---->
                         <li class="catalog__item">
+						<!-- ссылка на элемент в каталоге ---->
                             <a href="#" class="catalog__link">
-                                <img src="https://imdiz.ru/files/store/img/icons_catalog/desktops.png" alt="Desktops" class="catalog__link-img"> Радиоэлементы
+                                <img src="img/radio_comps.png" alt="Desktops" class="catalog__link-img"> Радиоэлементы
                             </a>
+							<!-- подкаталог ---->
                             <div class="catalog__subcatalog">
+							<!-- список элементов подкаталога ---->
                                 <ul class="collections_subcatalog">
+								<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+									<!-- контейнер в шапке ---->
                                         <a href="#" class="catalog__subcatalog-link">ТНТ</a>
                                         <ul>
                                             <li>
-                                                <a href="#" class="catalog__subcatalog-link">Резисторы</a>
+												<!-- ссылка на элемент в подкаталоге ---->
+                                                <a href="#" class="catalog__subcatalog-link">Резисторы ></a>                                              
                                                 <ul>
-                                                    <li><a href="#" class="catalog__subcatalog-link">Постоянные</a></li>
-                                                    <li><a href="#" class="catalog__subcatalog-link">Переменные</a></li>
+													<!-- ссылка на элемент в подкаталоге ---->
+                                                   <li><a href="#" class="catalog__subcatalog-link">Постоянные</a></a></li>
+												   <!-- ссылка на элемент в подкаталоге ---->
+                                                   <li><a href="#" class="catalog__subcatalog-link">Переменные</a></a></li>
+                                               
                                                 </ul>
+
                                             </li>
 
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="#" class="catalog__subcatalog-link">Конденсаторы</a>
                                             </li>
                                             <li>
-                                                <a href="#" class="catalog__subcatalog-link">Полупроводники</a>
+												<!-- ссылка на элемент в подкаталоге ---->
+                                                <a href="#" class="catalog__subcatalog-link">Полупроводники ></a>
                                                 <ul>
+													<!-- ссылки на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Диоды</a></li>
                                                     <li><a href="#" class="catalog__subcatalog-link">Светодиоды</a></li>
                                                     <li><a href="#" class="catalog__subcatalog-link">Транзисторы</a>
@@ -73,7 +95,7 @@
                                                     <li><a href="#" class="catalog__subcatalog-link">Стабилизаторы</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы</a>
+                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы ></a>
                                                         <ul>
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
@@ -88,59 +110,82 @@
                                             </li>
                                         </ul>
                                     </li>
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">SMD</a>
                                         <ul>
                                             <li>
-                                                <a href="#" class="catalog__subcatalog-link">Резисторы</a>
+												<!-- ссылка на элемент в подкаталоге ---->
+                                                <a href="#" class="catalog__subcatalog-link">Резисторы ></a>
                                                 <ul>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Постоянные</a></li>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Переменные</a></li>
                                                 </ul>
                                             </li>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="#" class="catalog__subcatalog-link">Конденсаторы</a>
                                             </li>
                                             <li>
-                                                <a href="#" class="catalog__subcatalog-link">Полупроводники</a>
+												<!-- ссылка на элемент в подкаталоге ---->
+                                                <a href="#" class="catalog__subcatalog-link">Полупроводники ></a>
                                                 <ul>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Диоды</a></li>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Светодиоды</a></li>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Транзисторы</a>
                                                     </li>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Стабилизаторы</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы</a>
+														<!-- ссылка на элемент в подкаталоге ---->
+                                                        <a href="#" class="catalog__subcatalog-link">Микросхемы ></a>
                                                         <ul>
+															<!-- ссылка на элемент в подкаталоге ---->
                                                             <li><a href="#" class="catalog__subcatalog-link">Логические
                                                                     элементы</a></li>
+																	<!-- ссылка на элемент в подкаталоге ---->
                                                             <li><a href="#" class="catalog__subcatalog-link">Контроллеры</a>
                                                             </li>
+															<!-- ссылка на элемент в подкаталоге ---->
                                                             <li><a href="#" class="catalog__subcatalog-link">Драйверы и
                                                                     усилители</a></li>
                                                         </ul>
                                                     </li>
+													<!-- ссылка на элемент в подкаталоге ---->
                                                     <li><a href="#" class="catalog__subcatalog-link">Прочее</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
+									<!-- элемент подкаталога ---->
                                     <li class="collections_subcatalog_item">
+									<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Двигатели</a>
                                         <ul>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="#" class="catalog__subcatalog-link">Постоянного вращения</a>
                                             </li>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="#" class="catalog__subcatalog-link">Серво</a>
                                             </li>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="#" class="catalog__subcatalog-link">Шаговые</a>
                                             </li>
                                         </ul>
                                     </li>
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Прочее</a>
                                     </li>
 
@@ -148,75 +193,107 @@
 
                             </div>
                         </li>
+						<!-- элементы каталога ---->
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/laptops.png" alt="Laptops & Notebooks" class="catalog__link-img">Питание</a>
-                            <div class="catalog__subcatalog">
-                                <ul class="catalog_collections">
+						<!-- ссылка на элемент в каталоге ---->
+                            <a href="#" class="catalog__link"><img src="img/power.png" class="catalog__link-img">Питание</a>
+                            <!-- подкаталог ---->
+							<div class="catalog__subcatalog">
+								<!-- список элементов подкаталога ---->
+                                <ul class="collections_subcatalog">
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+									<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Автономное</a>
                                     </li>
+									<!-- элемент подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">От сети</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
+						<!-- элементы каталога ---->
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="img/components.png" alt="Components" class="catalog__link-img">Модули</a>
-                            <div class="catalog__subcatalog">
-                                <ul class="catalog_collections">
+						<!-- ссылка на элемент в каталоге ---->
+                            <a href="#" class="catalog__link"><img src="img/modules.png" alt="Components" class="catalog__link-img">Модули</a>
+                            <!-- подкаталог ---->
+							<div class="catalog__subcatalog">
+                                <!-- список элементов подкаталога ---->
+								<ul class="collections_subcatalog">
+								<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Управляющие модули</a>
                                     </li>
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Сенсоры</a>
                                     </li>
+									<!-- элемент подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Индикаторы</a>
                                         <ul>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="" class="catalog__subcatalog-link">Светодиоды/светодиодные
                                                     сборки</a>
                                             </li>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="" class="catalog__subcatalog-link">Динамики/пьезоэлементы</a>
                                             </li>
                                             <li>
+												<!-- ссылка на элемент в подкаталоге ---->
                                                 <a href="" class="catalog__subcatalog-link">Дисплеи</a>
                                             </li>
                                         </ul>
                                     </li>
+									<!-- элемент подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Приём/передача</a>
                                     </li>
+									<!-- элемент подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Платы расширения</a>
                                     </li>
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Макетные платы</a>
                                     </li>
+									<!-- элементы подкаталога ---->
                                     <li class="collections_subcatalog_item">
+										<!-- ссылка на элемент в подкаталоге ---->
                                         <a href="#" class="catalog__subcatalog-link">Прочее</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
+						<!-- элементы каталога ---->
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/tablets.png" alt="Tablets" class="catalog__link-img">Провода</a>
+						<!-- ссылка на элемент в каталоге ---->
+                            <a href="#" class="catalog__link"><img src="img/wires.png" alt="Tablets" class="catalog__link-img">Провода</a>
                         </li>
+						<!-- элементы каталога ---->
                         <li class="catalog__item">
-                            <a href="#" class="catalog__link"><img src="https://imdiz.ru/files/store/img/icons_catalog/software.png" alt="Software" class="catalog__link-img">Прочее</a>
+						<!-- ссылка на элемент в каталоге ---->
+                            <a href="#" class="catalog__link"><img src="img/other.png" alt="Software" class="catalog__link-img">Прочее</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            
         </div>
     </div>
 
 
     <main class="container-product">
-        <!-- Left Column / Headphones Image -->
+        <!-- Left Column / Example Image -->
 
         <div class="left-column">
             <img class="active" src="img/ATmega32U4.png" alt="" />
@@ -225,23 +302,24 @@
 
   <!-- Right Column --></pre>
         <div class="right-column">
-            <!-- Product Description -->
+            <!-- Product Name -->
             <div class="product-name">
                 <h1>Плата Iskra Neo</h1>                
             </div>
-            <!-- Product Configuration -->
+            <!-- Product Description -->
             <div class="product-description">
-                <!-- Product Color -->
+                <!-- Technical specifications-->
                 <h2>Технические характеристики</h2> 
                 <p>Платформа для разработки с микроконтроллером ATmega32U4</p>
-                <!-- Cable Configuration -->
+                <!-- Links -->
                 <div class="product-links">
                     <h2>Ссылки</h2> 
                     <ul>
                         <li><a href="http://amperka.ru/product/iskra-neo">Ссылка №1</a></li>
                         <li><a href="https://www.chipdip.ru/product/iskra-neo">Ссылка №2</a></li>
                         <li><a href="http://www.electronshik.ru/item/iskra-neo-1916803">Ссылка №3</a></li>
-                    </ul>                      
+                    </ul>             
+					<!-- amount -->
                     <h2>Количество</h2>
                     <div class="product-count">
                         <span>8</span>
@@ -249,7 +327,7 @@
                     
                 </div>
             </div>
-            
+            <!-- buttons -->
             <div class="product-button"><div class="edit"><a href="">Изменить</a></div>
 				<div class="edit"><a href="">Удалить</a></div> </div> 
             
